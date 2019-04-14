@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-west-2",
+            "eventTime": "2019-04-13T22:59:01.457Z",
+            "eventName": "ObjectCreated:CompleteMultipartUpload",
+            "userIdentity": {
+                "principalId": "AWS:AIDAQ5QENW2GB5XMESGV3"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "65.182.85.9"
+            },
+            "responseElements": {
+                "x-amz-request-id": "B83326FEF9D78496",
+                "x-amz-id-2": "Xx4WYKxVYs/H/58gKZ0tunf43+1Ay2t+XWr0BjWTaVXOAS8yNHinPeL9WI6uSCAsC9oLPQd2nfQ="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "701700db-b0e0-4d9c-b56c-3913439e632b",
+                "bucket": {
+                    "name": "parse-csv-1234",
+                    "ownerIdentity": {
+                        "principalId": "A301VGUH3LHL0H"
+                    },
+                    "arn": "arn:aws:s3:::parse-csv-1234"
+                },
+                "object": {
+                    "key": "channels.csv",
+                    "size": 67745077,
+                    "eTag": "4f75294e146e3ca1853d6d3a9b66aabc-9",
+                    "sequencer": "005CB269A6BE0EC0E3"
+                }
+            }
+        }
+    ]
+}
